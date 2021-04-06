@@ -1,25 +1,16 @@
-function login(){
-    var email=document.getElementById("email").value;
-    var password=document.getElementById("password").value;
-   
-    //get data from local storge (from web browser)
+function login() {
+  var email = document.getElementById("email").value;
+  var password = document.getElementById("password").value;
 
-    var email1=localStorage.getItem("email1");
-    var password1=localStorage.getItem("password1");
+  //get data from local storge (from web browser)
 
-    if(email==email1 && password==password1)
-    {
-    
-      window.open('home.html');
-      return false;
-        
-        
-        
-    }
-        else
-        {
-            alert("Email and Password is Incorrect!")
-        }
-    
+  var email1 = localStorage.getItem("email1");
+  var password1 = localStorage.getItem("password1");
 
+  if (email == email1 && password == password1) {
+    window.open("index.html");
+    return false;
+  } else {
+    alert("Email and Password is Incorrect!");
+  }
 }
