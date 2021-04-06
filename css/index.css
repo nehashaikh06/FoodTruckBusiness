@@ -112,7 +112,6 @@ a {
   }
   #launch {
     margin: 10px;
-    background-color: antiquewhite;
     display: flex;
     flex-direction: column;
     align-items: center;
