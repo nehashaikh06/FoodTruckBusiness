@@ -1,12 +1,6 @@
 # FoodTruckBusiness
 Raahi is a food truck business that we are launching soon.
-
-
-
-
-```bash
-
-```
+Coded by Nabila Zahra and Neha Shaikh
 
 
 
